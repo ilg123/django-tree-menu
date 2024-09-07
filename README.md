@@ -19,8 +19,8 @@
     docker-compose build
 
 4. Выполните миграции и создайте суперпользователя:
-    docker-compose run web python manage.py makemigrations
-    docker-compose run web python manage.py migrate
+    docker-compose run web python manage.py makemigrations ->
+    docker-compose run web python manage.py migrate ->
     docker-compose run web python manage.py createsuperuser
 
 5. Выполните миграции и создайте суперпользователя:
